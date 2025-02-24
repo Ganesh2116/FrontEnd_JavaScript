@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function prime()
+        {
+            let count =0;
+            let num = 3;
+
+            for (let i =1;i<=num;i++)
+            {
+                if (num%i == 0)
+                {
+                    count++;
+                }
+            }
+
+
+            if (count == 2)
+        {
+            document.write("this is prime");            
+        }
+        else
+        {
+            document.write("this is not prime");
+
+        }
+        }
+
+        prime();
+
+       
+    </script>
+</body>
+</html>

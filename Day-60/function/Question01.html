@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        function pallindrome()
+        {
+            let num = 121;
+            let rev = 0;
+            for (let i =num;i>0 ;i=Math.floor(i/10))
+            {
+                let rem = i%10;
+                rev = rev*10+rem;
+                
+             }
+
+             if (rev === num)
+             {
+                document.write("this is pallindrome number ");
+             }
+             else
+             {
+                document.write("this is not pallindrome number ");
+
+             }
+             
+
+        }
+        pallindrome();
+
+
+    </script>
+</body>
+</html>

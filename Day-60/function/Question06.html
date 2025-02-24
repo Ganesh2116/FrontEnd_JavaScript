@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <Script>
+       function array()
+       {
+        let arr = [1,-2,78,45,-45,62,4,90,-7,1];
+        let arr1 = [];
+        let x = 0;
+        for(let i=0;i<arr.length;i++)
+        {
+            if (arr[i]<0)
+            {
+                arr1[x++] = arr[i];
+            }
+        }
+
+        for(let i=0;i<arr.length;i++)
+        {
+            if (arr[i]>=0)
+            {
+                arr1[x++] = arr[i];
+            }
+        }
+
+        arr1.sort();
+        for(let i=0;i<arr1.length;i++)
+        {
+            document.write(arr1[i]+" ");
+        }
+       }
+
+       array();
+
+    </Script>
+</body>
+</html>
