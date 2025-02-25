@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- document.getElementById -->
+        <!-- document.getElementById -->
+
+<!-- //id 
+    <h1>HTML Dom</h1>
+    <p id="id1">this is text <br></p>
+
+    <p id="id2"></p>
+    <script>
+        const ele = document.getElementById("id1");
+        document.getElementById("id1").innerHTML = "this is innner html text";
+        document.getElementById("id2").innerHTML = ele.innerHTML;
+    </script> -->
+<!-- 
+//tag name
+    <p>this is javascript code</p>
+    <p></p>
+    <script>
+
+        const ele = document.getElementsByTagName("p");
+
+        ele[1].innerHTML = "this is javascript with html css "+ele[0].innerHTML;
+    </script> -->
+
+<!-- //byClassName
+    <p class="c1">this is tag class</p>
+    <p class="c1">this is tag class two</p>
+
+    <script>
+        const ele = document.getElementsByClassName("c1");
+
+        ele[1].innerHTML ="this class tages "+ele[0].innerHTML;
+
+    </script> -->
+
+
+<!-- // query selector
+    <p class="c1">this is tag class</p>
+    <p class="c1">this is tag query selector</p>
+    <p id="id1"></p>
+
+    <script>
+        const ele = document.querySelectorAll("p.c1");
+
+        document.getElementById("id1").innerHTML ="this quesry selector"+ele[0].innerHTML;
+
+    </script> -->
+<!-- <h1>change img</h1>
+<img id="id1" src="https://images.pexels.com/photos/30838979/pexels-photo-30838979/free-photo-of-close-up-of-golden-wheat-field-in-turkiye.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="ex_img">
+
+
+<script>
+    document.getElementById("id1").src = "https://images.pexels.com/photos/30312743/pexels-photo-30312743/free-photo-of-delicious-hummus-with-crispy-chickpeas-and-olive-oil.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load";
+</script> -->
+
+
+
+<!-- 
+//style
+<p id="id1" style="background-color: aqua;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim minima vero officiis saepe harum, natus vel blanditiis hic deserunt, consequatur ad consectetur a repellat, culpa at assumenda quidem nesciunt eum.</p>
+
+<script>
+    document.getElementById("id1").style.color="red";
+    document.getElementById("id1").style.backgroundColor="yellow";
+</script>
+    
+    -->
+
+<!-- // height and width    
+    <h1>Bom demo</h1>
+    <p id="id1"></p>
+    <p id="id2"></p>
+    <script>
+
+document.getElementById("id1").innerHTML = "width is "+innerWidth;
+document.getElementById("id2").innerHTML = "height is "+innerHeight;
+</script> -->
+    
+<!-- //window open and close -->
+<!-- <h1>Bom demo</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut corporis asperiores maxime, exercitationem sed consequuntur repudiandae qui tempore quisquam expedita consequatur nostrum soluta quibusdam, vel accusantium! Error reiciendis officiis quisquam.</p>
+<script>
+    window.open("https://chatgpt.com/c/67bd9ea5-e5a4-8012-9fba-0aff7d75137c");
+    window.close();
+</script> -->
+
+<!-- // screen height and width 
+<h1>Bom demo</h1>
+    <p id="id1"></p>
+    <p id="id2"></p>
+    <p id="id3"></p>
+    <p id="id4"></p>
+    <script>
+
+document.getElementById("id1").innerHTML = "width is "+screen.width;
+document.getElementById("id2").innerHTML = "height is "+screen.height;
+document.getElementById("id3").innerHTML = "width availableis "+screen.availWidth;
+document.getElementById("id4").innerHTML = "height available is "+screen.availHeight;
+</script> -->
+
+
+<h1>location</h1>
+    <p id="id1"></p>
+    <p id="id2"></p>
+    <p id="id3"></p>
+    <p id="id4"></p>
+    <p id="id5"></p>
+    <script>
+
+document.getElementById("id1").innerHTML = "location : "+window.location.href;
+document.getElementById("id2").innerHTML = "hostname : "+window.location.hostname;
+document.getElementById("id3").innerHTML = "pathname : "+window.location.pathname;
+document.getElementById("id4").innerHTML = "port : "+window.location.port;
+document.getElementById("id5").innerHTML = "protocol : "+window.location.protocol+"<br> port :"+window.location.port;
+
+
+</script>
+
+</body>
+</html>
