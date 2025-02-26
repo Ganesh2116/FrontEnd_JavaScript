@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="body">
+    <h1>this is html</h1>
+
+    <!-- <button id="b1">cick here</button> -->
+    <button id="btn">cick here</button>
+    <!-- <input type="text" id="t1">
+    <p id="output"></p> -->
+    <p id="id1"></p>
+    <script>
+
+//alert
+    //    window.alert("this event page");
+//Confirm
+    // let ans = window.confirm("are you sure you want to delete?");
+
+    // if (ans == true)
+    // {
+    //     document.write("yes,delete this data");
+    // }
+    // else
+    // {
+    //     document.write("No,not sure....");
+    // }
+
+
+// prompt
+
+    //     let email = window.prompt("Given your mail id");
+
+    // if(email)
+    // {
+    //     document.write("yout email is :"+email);
+        
+    // }
+    // else
+    // {
+    //     document.write("invalid mail....");
+
+    // }
+
+    // let btn = document.getElementById("id1");
+
+    // btn.onclick = function()
+    // {
+    //     alert("Button on clicked...")
+    // }
+
+    // btn.addEventListener("click",function(){
+    //      alert("alert box generated using add evernt listener..")
+    // })
+
+    // btn.addEventListener("click",function(event){
+
+    //     console.log(event);
+    //     console.log(event.clientX);
+    //     console.log(event.clientY);
+    // })
+
+
+//     btn.addEventListener("keydown",function(event){
+
+//     console.log(`${event.key}`);
+// })
+
+// btn.addEventListener("keyup",function(event){
+
+// console.log(`${event.key}`);
+// })
+
+
+//mouse events
+// btn.addEventListener("mouseover", function(event)
+// {
+//     console.log("mouseover")
+// })
+
+// btn.addEventListener("mousedown",function(event)
+// {
+//     console.log("mousedown");
+// })
+    
+// btn.addEventListener("mouseenter",function(event)
+// {
+//     console.log("mousecenter");
+// })
+
+// btn.addEventListener("mouseleave",function(event){
+//     console.log("mouseleave");
+// })
+
+// btn.addEventListener("mouseout",function(event)
+// {
+//     btn.style.backgroundColor ="blue";
+// })
+
+// document.getElementById("btn").addEventListener("click", function() {
+//             let userInput = prompt("Enter some text:");
+//             if (userInput) {
+//                 document.getElementById("output").innerText = "You entered: " + userInput;
+//             } else {
+//                 document.getElementById("output").innerText = "No input provided.";
+//             }
+//         });
+
+// let btn = document.getElementById("b1");
+
+// addEventListener("click",function()
+// {
+//     document.getElementById("output").innerHTML = "yourname :"+document.getElementById("t1")
+// .value;
+
+// });
+
+//Q1Click Event: Create a button that changes the background color of the page when clicked.
+// btn.addEventListener("click",function(event)
+// {
+//      body.style.backgroundColor ="blue"
+// })
+
+
+//Q2Show a hidden message when the user hovers over a specific element.
+
+btn.addEventListener("mouseover", function(event)
+{
+    document.getElementById("output").innerHTML = "this is hover";
+})
+    </script>
+</body>
+</html>
