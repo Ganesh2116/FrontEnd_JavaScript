@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let text = `{
+        "emp":[
+
+        {"lastname":"bharti","firstname":"ganesh"},
+        {"lastname":"bharti","firstname":"rushi"},
+        {"lastname":"bharti","firstname":"kundlik"}
+        ]
+        }`
+        const myArr = JSON.parse(text);
+        // document.write(myArr.emp[0].firstname)
+
+    for (let i = 0 ;i<myArr.emp.length;i++)
+    {
+        document.write(myArr.emp[i].firstname+" :  ");
+        document.write(myArr.emp[i].lastname+"<br>");
+    }
+    </script>
+</body>
+</html>
